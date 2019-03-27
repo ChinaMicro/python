@@ -28,7 +28,37 @@
     deactivate 开发环境使用完毕，离开虚拟环境
     conda remove -n python34 --all 彻底删除虚拟环境。
 1.2.7 核心工具包
-Jupyter 网站：http://jupyter.org/ 安装: pip install jupyter
-matplotlib 网站：http://matplotlib.org/ 安装：pip install matploylib
+PyPi python https://pypi.python.org/pypi 
+python的软件包索引，大多数开源python软件包的仓库。
 
+Numpy http://www.numpy.org/ pip install numpy
+Python的主力分析工具，提供多维数组，以及对数组进行多种数学操作的大型函数集。
+数组是沿着多个维度排列的数据块，实现了数学的向量和矩阵，存储数据，快速对矩阵和矢量运算。
+
+Jupyter 网站：http://jupyter.org/ 安装: pip install jupyter
+
+matplotlib 网站：http://matplotlib.org/ 安装：pip install matploylib
+Scipy http://www.scipy.org/ pip install scipy
+Pandas 网站：http://pandas.pydata.org/ pip install pandas 
+Scikit-learn 网站：http://scikit-learn.org/stable pip install scikit-learn
+jupyter 网站：http://jupyter.org/ pip install jupyter
+Theano 符号计算 深度学习库 http://deeplearning.net/software/theano/ pip install theano 
+获得最新软件包 git clone git://github.com/Theano/Theano.git
+Windows系统:
+conda updata conda
+conda updata --all
+conda install mingw libpython
+pip install git+git://giyhub.com/Theano/Theano.git
+NLTK http://www.nltk.org/ pip install nltk
+Statsmodels http://statsmodels.sourceforge.net/ pip install statsmodels
+Beautiful Soup http://www.crummy.com/software/BeautifulSoup pip install beautifulsoup4
+Gensim http://radimrehurek.com/gensim/ pip install gensim
+PyPy http://pypy.org/download.html 
+XGBoost
+Keras https://keras.io/ 建议在pypi下安装pip install keras 
+或者 pip install git+git://github.com/fchollet/keras.git 
+
+
+
+NetworkX http://networkx.github.io/ pip install networkx
     
